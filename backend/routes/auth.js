@@ -27,7 +27,6 @@ router.post('/createuser',[
         password: req.body.password,
       })
       res.json(user)
-      //catch error
     } catch (error) {
         console.error(error.message);
         res.status(500).send("Some Error occured");
