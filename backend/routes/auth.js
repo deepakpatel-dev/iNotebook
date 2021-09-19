@@ -4,7 +4,7 @@ const User = require('../models/User');
 const router = express.Router();
 
 // Create a User using : POST "./api/auth" .Doesn't require Auth
-router.post('/',[
+router.post('/createuser',[
     body('name','Enter a valid name').isLength({min : 3}),
     body('email','Enter a valid email').isEmail(),
     body('password','Password must be atleast 5 character').isLength({min:5})
