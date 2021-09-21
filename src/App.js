@@ -5,10 +5,12 @@ import About from './Components/About';
 import {
   BrowserRouter as Router,
   Switch, Route} from "react-router-dom";
+import NoteState from './Context/notes/NoteState';
 
 function App() {
   return (
     <div>
+      <NoteState>
       <Router>
       <Navbar/>
       <Switch>
@@ -20,6 +22,7 @@ function App() {
           </Route>
         </Switch>
       </Router>
+      </NoteState>
     </div>
   );
 }
