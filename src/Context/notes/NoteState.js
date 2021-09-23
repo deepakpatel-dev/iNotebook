@@ -20,6 +20,60 @@ const NoteState = (props) => {
       "tag": "Songs",
       "date": "2021-09-20T11:02:08.762Z",
       "__v": 0
+    },
+    {
+      "_id": "6148596e1940ea966656f363",
+      "user": "61483de0d1306251693050ea",
+      "title": "Sia",
+      "description": "Please access the palylist",
+      "tag": "Songs",
+      "date": "2021-09-20T09:50:38.843Z",
+      "__v": 0
+    },
+    {
+      "_id": "6148596e1940ea966656f363",
+      "user": "61483de0d1306251693050ea",
+      "title": "Sia",
+      "description": "Please access the palylist",
+      "tag": "Songs",
+      "date": "2021-09-20T09:50:38.843Z",
+      "__v": 0
+    },
+    {
+      "_id": "6148596e1940ea966656f363",
+      "user": "61483de0d1306251693050ea",
+      "title": "Sia",
+      "description": "Please access the palylist",
+      "tag": "Songs",
+      "date": "2021-09-20T09:50:38.843Z",
+      "__v": 0
+    },
+    {
+      "_id": "6148596e1940ea966656f363",
+      "user": "61483de0d1306251693050ea",
+      "title": "Sia",
+      "description": "Please access the palylist",
+      "tag": "Songs",
+      "date": "2021-09-20T09:50:38.843Z",
+      "__v": 0
+    },
+    {
+      "_id": "6148596e1940ea966656f363",
+      "user": "61483de0d1306251693050ea",
+      "title": "Sia",
+      "description": "Please access the palylist",
+      "tag": "Songs",
+      "date": "2021-09-20T09:50:38.843Z",
+      "__v": 0
+    },
+    {
+      "_id": "6148596e1940ea966656f363",
+      "user": "61483de0d1306251693050ea",
+      "title": "Sia",
+      "description": "Please access the palylist",
+      "tag": "Songs",
+      "date": "2021-09-20T09:50:38.843Z",
+      "__v": 0
     }
   ]
 
