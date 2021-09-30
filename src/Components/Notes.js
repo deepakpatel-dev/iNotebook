@@ -2,12 +2,18 @@ import React, { useContext, useEffect, useRef, useState } from 'react'
 import noteContext from '../Context/notes/noteContext';
 import NoteItem from './NoteItem';
 import AddNote from './AddNote';
+import { useHistory } from 'react-router';
 
 export const Notes = (props) => {
     const context = useContext(noteContext);
+    let history = useHistory();
     const { notes, getNotes,editNote } = context;
     useEffect(() => {
-        getNotes()
+        if (localStorage.getItem('token')){
+            getNotes()
+        }else{
+            history.push('/login')
+        }
         // eslint-disable-next-line
     }, [])
     const ref = useRef(null)
