@@ -9,7 +9,7 @@ const Navbar = () => {
   // },[location]);
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
   <div className="container-fluid">
     <Link className="navbar-brand" to="/">Navbar</Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +26,8 @@ const Navbar = () => {
       </ul>
       <form className="d-flex">
         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button className="btn btn-outline-success" type="submit">Search</button>
+        <Link className="btn btn-primary mx-1" to='/login' role="button">Login</Link>
+        <Link className="btn btn-primary mx-1" to='/signup' role="button">Signup</Link>
       </form>
     </div>
   </div>
